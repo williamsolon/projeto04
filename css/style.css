@@ -1,0 +1,1131 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Oswald', sans-serif;
+}
+
+html,body{
+	height: 100%;
+}
+
+.center{
+	max-width: 1280px;
+	margin: 0 auto;
+}
+
+.clear{
+	clear: both;
+}
+
+.botao{
+	text-decoration: none;
+	width: 160px;
+	height: 50px;
+	background-color: #eb2d2d;
+	color: white;
+	padding: 9px 25px;
+	border-top: 0;
+	border-left: 0;
+	border-right: 0;
+	border-bottom: 4px solid #b21e1e;
+	border-radius: 5px;
+	font-style: italic;
+	text-align: center;
+	line-height: 27px;
+	transition: 0.2s;
+	opacity: 1;
+}
+
+.botao:hover{
+	opacity: 0.8;
+}
+
+.botao:focus{
+	opacity: 0.7;
+}
+
+/********************************************Index********************************************/
+
+/*Header*/
+
+header{
+	width: 100%;
+	padding: 40px 2%;
+}
+
+header img{
+	float: left;
+}
+
+header nav.desktop{
+	float: right;
+}
+
+header nav.desktop ul{
+	list-style-type: none;
+	position: relative;
+	top: 27px;
+}
+
+header nav.desktop ul li{
+	float: left;
+	padding: 0 30px;
+}
+
+header nav.desktop ul li a{
+	text-decoration: none;
+	font-style: italic;
+	font-size: 23px;
+	color: black;
+	transition: 0.2s;
+	opacity: 1;
+}
+
+header nav.desktop ul li a:hover{
+	opacity: 0.7;
+}
+
+header nav.desktop ul li a:focus{
+	transition: 0.1s;
+	opacity: 0.4;
+}
+
+header nav.mobile{
+	float: right;
+	display: none;
+	background-image: url('../images/menu.png');
+	background-size: cover;
+	width: 32px;
+	height: 32px;
+	position: relative;
+	top: 27px;
+	cursor: pointer;
+	transition: 0.2s;
+	opacity: 1;
+}
+
+header nav.mobile:hover{
+	opacity: 0.7;
+}
+
+header nav.mobile ul{
+	display: none;
+}
+
+/*Banner*/
+
+section.banner{
+	padding: 0 2%;
+	background-image: url('../images/banner.png');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	height: 70vh;
+}
+
+div.box-container{
+	float: left;
+	margin: 90px 100px;
+}
+
+div.box-banner{
+	width: 280px;
+	height: 60px;
+	background-color: #eb2d2d;
+	border-radius: 3px;
+	margin-top: 20px;
+	padding-left: 21px;
+	transform: skew(-15deg);
+	color: white;
+	font-size: 23px;
+	font-style: normal;
+	line-height: 60px;
+}
+
+div.box-banner:nth-of-type(1){
+	position: relative;
+	left: 60px;
+}
+
+div.box-banner:nth-of-type(2){
+	position: relative;
+	left: 40px;
+}
+
+div.box-banner:nth-of-type(3){
+	position: relative;
+	left: 20px;
+}
+
+div.box-banner:nth-of-type(4){
+	position: relative;
+	left: 0px;
+	background-color: white;
+	color: black;
+}
+
+/*Veículos em Destaque*/
+
+section.veiculos-destaque{
+	width: 100%;
+	padding: 50px 2%;
+}
+
+section.veiculos-destaque .center{
+	max-width: 1000px;
+}
+
+div.titulo-linha{
+	width: 100%;
+	text-align: center;
+	position: relative;
+}
+
+div.titulo-linha .linha{
+	width: 100%;
+	height: 2px;
+	background-color: black;
+	position: absolute;
+	top: 20px;
+}
+
+div.titulo-linha h2{
+	font-style: italic;
+	font-size: 27px;
+	background-color: white;
+	padding: 0 23px;
+	display: inline-block;
+	position: relative;
+}
+
+div.carros-container{
+	width: 100%;
+	padding: 50px 0;
+}
+
+div.carros-single{
+	width: 33.3%;
+	float: left;
+	padding: 0 8px;
+	margin-top: 40px;
+}
+
+div.carros-single h2{
+	font-size: 20px;
+	font-style: italic;
+	margin-top: 8px;
+}
+
+div.carros-single p{
+	font-size: 15px;
+	font-style: italic;
+	color: #353535;
+	margin-top: 8px;
+}
+
+div.carros-single a{
+	margin-top: 11px;
+	float: left;
+}
+
+div.img-carros{
+	width: 100%;
+	padding-top: 65%;
+	background-image: url('../images/carro1.jpg');
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+/*Serviços*/
+
+section.servicos{
+	width: 100%;
+}
+
+div.part1{
+	padding: 40px 2%;
+	width: 50%;
+	height: 300px;
+	float: left;
+	background-color: #242424;
+	color: white;
+	text-align: right;
+}
+
+div.conteudo-part1{
+	display: inline-block;
+}
+
+div.texto-part1{
+	text-align: left;
+	display: inline-block;
+	margin-right: 25px;
+}
+
+div.texto-part1 h2{
+	font-weight: normal;
+	font-size: 32px;
+	font-style: italic;
+}
+
+div.texto-part1 ul{
+	margin-top: 11px;
+	padding-left: 20px;
+}
+
+div.conteudo-part1 a{
+	display: inline-block;
+	vertical-align: bottom;
+}
+
+div.part2{
+	padding: 40px 2%;
+	width: 50%;
+	height: 300px;
+	float: left;
+	background-color: #eb2d2d;
+	color: white;
+}
+
+div.conteudo-part2{
+	float: left;
+	max-width: 500px;
+}
+
+div.conteudo-part2 h2{
+	font-weight: normal;
+	font-size: 32px;
+	font-style: italic;
+}
+
+div.conteudo-part2 p{
+	font-size: 17px;
+	margin-top: 15px;
+}
+
+div.setas{
+	float: left;
+	margin-top: 25px;
+}
+
+div.setas img{
+	float: left;
+	cursor: pointer;
+	transition: 0.2s;
+	opacity: 1;
+}
+
+div.setas img:nth-of-type(2){
+	margin-left: 43px;
+}
+
+div.setas img:hover{
+	opacity: 0.7;
+}
+
+div.autor{
+	float: right;
+	margin-top: 25px;
+	position: relative;
+	top: -20px;
+}
+
+div.autor p{
+	font-size: 23px;
+	color: #252525;
+}
+
+/*Contato*/
+
+section.contato{
+	width: 100%;
+	padding: 50px 2%;
+}
+
+section.contato form{
+	max-width: 600px;
+	padding: 25px 0;
+	margin: 0 auto;
+}
+
+div.form-wraper{
+	width: 100%;
+	float: left;
+	padding: 13px 10px;
+}
+
+div.form-wraper input[type=text]{
+	width: 100%;
+	height: 48px;
+	line-height: 48px;
+	padding-left: 8px;
+	font-size: 16px;
+	border: 1px solid #ccc;
+	border-radius: 3px;
+	transition: 0.2s;
+	opacity: 1;
+}
+
+div.form-wraper input[type=text]:hover{
+	opacity: 0.7;
+}
+
+div.form-wraper input[type=text]:focus{
+	outline: 0;
+}
+
+div.form-wraper input[type=email]{
+	width: 100%;
+	height: 48px;
+	line-height: 48px;
+	padding-left: 8px;
+	font-size: 16px;
+	border: 1px solid #ccc;
+	border-radius: 3px;
+	transition: 0.2s;
+	opacity: 1;
+}
+
+div.form-wraper input[type=email]:hover{
+	opacity: 0.7;
+}
+
+div.form-wraper input[type=email]:focus{
+	outline: 0;
+}
+
+div.form-wraper textarea{
+	width: 100%;
+	height: 128px;
+	line-height: 48px;
+	padding-left: 8px;
+	font-size: 16px;
+	border: 1px solid #ccc;
+	border-radius: 3px;
+	resize: none;
+	transition: 0.2s;
+	opacity: 1;
+}
+
+div.form-wraper textarea:hover{
+	opacity: 0.7;
+}
+
+div.form-wraper textarea:focus{
+	outline: 0;
+}
+
+div.form-wraper input[type=submit]{
+	cursor: pointer;
+	font-size: 16px;
+}
+
+div.form-wraper input[type=submit]:focus{
+	outline: 0;
+}
+
+div.w100{
+	width: 100%;
+}
+
+div.w50{
+	width: 50%;
+}
+
+/*Footer*/
+
+footer{
+	width: 100%;
+	padding: 35px 2%;
+	background-color: #252525;
+}
+
+footer nav.desktop{
+	float: left;
+}
+
+footer nav.desktop ul{
+	list-style-type: none;
+}
+
+footer nav.desktop ul li{
+	float: left;
+	padding: 0 30px;
+}
+
+footer nav.desktop ul li a{
+	text-decoration: none;
+	font-style: italic;
+	font-size: 19px;
+	color: white;
+	transition: 0.2s;
+	opacity: 1;
+}
+
+footer nav.desktop ul li a:hover{
+	opacity: 0.7;
+}
+
+footer nav.desktop ul li a:focus{
+	transition: 0.1s;
+	opacity: 0.4;
+}
+
+footer p{
+	float: right;
+	font-style: italic;
+	font-size: 19px;
+	color: white;
+}
+
+/********************************************Venda********************************************/
+
+section.venda-pagina{
+	width: 100%;
+	padding: 50px 2%;
+}
+
+div.pesquisa-venda{
+	width: 30%;
+	float: left;
+	padding-right: 40px;
+}
+
+div.barra-pesquisa{
+	width: 100%;
+	float: left;
+}
+
+div.barra-pesquisa h2{
+	width: 100%;
+	font-size: 24px;
+	font-weight: normal;
+}
+
+div.borda-pesquisa{
+	width: 100%;
+	height: 20px;
+	border: 1px solid #ccc;
+	border-radius: 15px;
+	margin-top: 8px;
+}
+
+div.preço-barra-pesquisa{
+	width: 30%;
+	height: 20px;
+	background: linear-gradient(rgb(255,255,255), rgb(200,200,200));
+	border-radius: 15px;
+	position: relative;
+}
+
+div.barra{
+	width: 18px;
+	height: 27px;
+	background: linear-gradient(rgb(255,255,255), rgb(200,200,200));
+	border: 1px solid black;
+	border-radius: 8px;
+	position: absolute;
+	left: 90%;
+	top: -3.5px;
+	cursor: pointer;
+}
+
+div.barra-pesquisa p{
+	font-size: 15px;
+	margin-top: 8px;
+}
+
+div.barra-pesquisa p:nth-of-type(1){
+	float: left;
+}
+
+div.barra-pesquisa p:nth-of-type(2){
+	float: right;
+}
+
+div.filtro-pesquisa{
+	margin-top: 15px;
+}
+
+div.filtro-pesquisa h2{
+	width: 100%;
+	font-size: 24px;
+	font-weight: normal;
+}
+
+div.filtro-pesquisa form{
+	margin-top: 11px;
+}
+
+div.filtro-frase{
+	margin-top: 7px;
+}
+
+div.filtro-frase input[type=checkbox]{
+	display: none;
+}
+
+div.filtro-frase input[type=checkbox]:checked + label > div.checkbox-filtro{
+	display: block;
+}
+
+div.filtro-frase label{
+	width: 20px;
+	height: 20px;
+	border: 1px solid #ccc;
+	border-radius: 8px;
+	cursor: pointer;
+	float: left;
+	margin-right: 11px;
+	position: relative;
+	top: 1px;
+}
+
+div.checkbox-filtro{
+	width: 14px;
+	height: 14px;
+	border-radius: 7px;
+	background-color: #ccc;
+	cursor: pointer;
+	display: none;
+	position: absolute;
+	top: 2px;
+	left: 2px;
+}
+
+div.filtro-frase p{
+	font-size: 16px;
+	text-align: left;
+}
+
+div.venda-carros{
+	width: 70%;
+	float: left;
+}
+
+/********************************************Venda Individual********************************************/
+
+section.venda-individual{
+	width: 100%;
+	padding: 50px 2%;
+}
+
+div.navegacao-venda{
+	width: 100%;
+	max-width: 1000px;
+	margin: 40px auto;
+}
+
+div.navegacao-venda a{
+	text-decoration: none;
+	color: black;
+}
+
+div.navegacao-venda a:nth-of-type(3){
+	color: #eb2d2d;
+}
+
+div.navegacao-venda span{
+	margin: 25px;
+}
+
+div.venda-detalhes{
+	width: 100%;
+	max-width: 1000px;
+	margin: 25px auto;
+}
+
+div.fotos-navegacao{
+	float: left;
+	width: 55%;
+	position: relative;
+}
+
+div.carro-navegacao{
+	width: 100%;
+	padding-top: 70%;
+	background-image: url('../images/carro1.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+div.miniaturas{
+	width: 100%;
+	margin-top: 11px;
+}
+
+div.carros-miniaturas{
+	width: 92%;
+	float: left;
+	position: relative;
+	left: 5%;
+}
+
+div.carro-miniatura{
+	float: left;
+	width: 33.3%;
+	padding-top: 20%;
+	border: 5px solid white;
+	background-image: url('../images/carro1.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	cursor: pointer;
+}
+
+div.arrow-left{
+	float: left;
+	width: 4%;
+	padding-top: 4%;
+	background-image: url('../images/arrow-left.png');
+	background-size: 100% 100%;
+	position: absolute;
+	top: 87%;
+	left: -8px;
+	cursor: pointer;
+}
+
+div.arrow-right{
+	float: left;
+	width: 4%;
+	padding-top: 4%;
+	background-image: url('../images/arrow-right.png');
+	background-size: 100% 100%;
+	position: absolute;
+	top: 87%;
+	right: -8px;
+	cursor: pointer;
+}
+
+div.descricao-navegacao{
+	width: 45%;
+	float: left;
+	padding-left: 21px;
+}
+
+div.descricao-navegacao h2{
+	font-size: 24px;
+}
+
+div.descricao-navegacao p{
+	margin-top: 11px;
+	text-align: justify;
+	line-height: 25px;
+}
+
+div.descricao-navegacao a{
+	margin-top: 11px;
+	float: left;
+}
+
+/********************************************Sobre********************************************/
+
+section.sobre{
+	width: 100%;
+	padding: 50px 2%;
+}
+
+div.box1-sobre{
+	width: 100%;
+	max-width: 800px;
+	margin: 50px auto 0 auto;
+}
+
+div.box1-single{
+	width: 100%;
+	max-width: 800px;
+	padding-top: 70%;
+	background-color: #ddd;
+	margin-top: 11px;
+	margin: 0 auto;
+}
+
+div.texto1-single{
+	margin-top: 21px;
+	display: inline-block;
+}
+
+div.texto1-single h2{
+	font-size: 24px;
+}
+
+div.texto1-single p{
+	margin-top: 11px;
+	text-align: justify;
+	line-height: 25px;
+}
+
+div.box2-sobre{
+	width: 100%;
+	max-width: 800px;
+	margin: 40px auto;
+}
+
+div.box2-single{
+	width: 25%;
+	padding-top: 25%;
+	background-color: #ddd;
+	float: left;
+}
+
+div.texto2-single{
+	width: 75%;
+	float: left;
+	margin-top: 11px;
+	text-align: justify;
+	padding-left: 11px;
+}
+
+
+@media screen and (max-width: 851px){
+	/********************************************Index********************************************/
+
+	/*Serviços*/
+
+	section.servicos{
+		width: 100%;
+	}
+
+	div.part1{
+		padding: 40px 2%;
+		width: 100%;
+		height: auto;
+		float: none;
+		background-color: #242424;
+		color: white;
+		text-align: center;
+	}
+
+	div.conteudo-part1{
+		display: inline-block;
+	}
+
+	div.texto-part1{
+		text-align: left;
+		display: inline-block;
+		margin-right: 25px;
+	}
+
+	div.texto-part1 h2{
+		font-weight: normal;
+		font-size: 32px;
+		font-style: italic;
+	}
+
+	div.texto-part1 ul{
+		margin-top: 11px;
+		padding-left: 20px;
+	}
+
+	div.conteudo-part1 a{
+		width: 100%;
+		max-width: 150px;
+		margin-top: 13px;
+		display: inline-block;
+	}
+
+	div.part2{
+		padding: 40px 2%;
+		width: 100%;
+		height: auto;
+		float: none;
+		background-color: #eb2d2d;
+		color: white;
+		text-align: center;
+	}
+
+	div.conteudo-part2{
+		float: none;
+		max-width: 500px;
+		display: inline-block;
+	}
+
+	div.conteudo-part2 h2{
+		font-weight: normal;
+		font-size: 32px;
+		font-style: italic;
+	}
+
+	div.conteudo-part2 p{
+		font-size: 17px;
+		margin-top: 15px;
+	}
+
+	div.setas{
+		float: left;
+		margin-top: 25px;
+	}
+
+	div.setas img{
+		float: left;
+		cursor: pointer;
+		transition: 0.2s;
+		opacity: 1;
+	}
+
+	div.setas img:nth-of-type(2){
+		margin-left: 43px;
+	}
+
+	div.setas img:hover{
+		opacity: 0.7;
+	}
+
+	div.autor{
+		float: right;
+		margin-top: 25px;
+		position: relative;
+		top: -20px;
+	}
+
+	div.autor p{
+		font-size: 23px;
+		color: #252525;
+	}
+
+	/*Footer*/
+
+	footer nav.desktop{
+		display: none;
+	}
+
+	footer p{
+		float: none;
+		text-align: center;
+	}
+}
+
+@media screen and (max-width: 768px){
+	/********************************************Index********************************************/
+
+	/*Header*/
+
+	header nav.desktop{
+		display: none;
+	}
+
+	header nav.mobile{
+		display: block;
+	}
+
+	/*Banner*/
+
+	div.box-container{
+		margin: 90px 60px;
+	}
+
+	/*Veículos em Destaque*/
+
+	div.carros-container{
+		width: 100%;
+		padding: 50px 0;
+		text-align: center;
+	}
+
+	div.carros-single{
+		width: 100%;
+		float: left;
+		padding: 0 8px;
+		margin-top: 20px;
+	}
+
+	div.carros-single h2{
+		font-size: 20px;
+		font-style: italic;
+		margin-top: 8px;
+	}
+
+	div.carros-single p{
+		font-size: 15px;
+		font-style: italic;
+		color: #353535;
+		margin-top: 8px;
+	}
+
+	div.carros-single a{
+		margin-top: 11px;
+		float: none;
+		display: inline-block;
+	}
+
+	div.img-carros{
+		width: 70%;
+		padding-top: 50%;
+		background-image: url('../images/carro1.jpg');
+		background-repeat: no-repeat;
+		background-size: 100% 100%;
+		display: inline-block;
+	}
+
+	/*Contato*/
+
+	section.contato form{
+		max-width: 600px;
+		padding: 25px 0;
+		margin: 0 auto;
+		text-align: center;
+	}
+
+	div.form-wraper input[type=submit]{
+		display: inline-block;
+	}
+
+	div.w50{
+		width: 100%;
+	}
+
+	/********************************************Sobre********************************************/
+
+	div.box2-sobre{
+		width: 100%;
+		max-width: 800px;
+		margin: 50px auto;
+	}
+
+	div.box2-single{
+		width: 70%;
+		padding-top: 70%;
+		background-color: #ddd;
+		float: none;
+		margin: 0 auto;
+	}
+
+	div.texto2-single{
+		width: 100%;
+		float: none;
+		text-align: justify;
+		padding-left: 0;
+		margin: 21px auto;
+	}
+
+	/********************************************Venda Individual********************************************/
+
+	section.venda-individual{
+		width: 100%;
+		padding: 50px 2%;
+	}
+
+	div.navegacao-venda{
+		width: 90%;
+		max-width: 1000px;
+		margin: 40px auto;
+	}
+
+	div.venda-detalhes{
+		width: 90%;
+		max-width: 1000px;
+		margin: 25px auto;
+	}
+
+	div.fotos-navegacao{
+		float: left;
+		width: 100%;
+		position: relative;
+	}
+
+	div.carro-navegacao{
+		width: 100%;
+		padding-top: 70%;
+		background-image: url('../images/carro1.jpg');
+		background-repeat: no-repeat;
+		background-size: cover;
+		margin: 0 auto;	
+	}
+
+	div.miniaturas{
+		width: 100%;
+		margin-top: 15px;
+	}
+
+	div.carros-miniaturas{
+		width: 92%;
+		float: left;
+		position: relative;
+		left: 5%;
+	}
+
+	div.carro-miniatura{
+		float: left;
+		width: 33.3%;
+		padding-top: 20%;
+		border: 5px solid white;
+		background-image: url('../images/carro1.jpg');
+		background-repeat: no-repeat;
+		background-size: cover;
+		cursor: pointer;
+	}
+
+	div.arrow-left{
+		float: left;
+		width: 4%;
+		padding-top: 4%;
+		background-image: url('../images/arrow-left.png');
+		background-size: 100% 100%;
+		position: absolute;
+		top: 87%;
+		left: -8px;
+		cursor: pointer;
+	}
+
+	div.arrow-right{
+		float: left;
+		width: 4%;
+		padding-top: 4%;
+		background-image: url('../images/arrow-right.png');
+		background-size: 100% 100%;
+		position: absolute;
+		top: 87%;
+		right: -8px;
+		cursor: pointer;
+	}
+
+	div.descricao-navegacao{
+		width: 100%;
+		float: left;
+		padding-left: 21px;
+		margin-top: 15px;
+	}
+
+	/********************************************Venda********************************************/
+
+	section.venda-pagina{
+		width: 100%;
+		padding: 50px 2%;
+	}
+
+	div.pesquisa-venda{
+		width: 100%;
+		float: none;
+		padding-right: 0;
+		text-align: center;
+	}
+
+	div.barra-pesquisa{
+		width: 100%;
+		float: none;
+		margin-top: 21px;
+	}
+
+	div.filtro-pesquisa{
+		margin-top: 15px;
+		display: inline-block;
+	}
+
+	div.venda-carros{
+		width: 100%;
+		float: none;
+	}
+}
+
+
+@media screen and (max-width: 480px){
+	/********************************************Index********************************************/
+
+	/*Banner*/
+
+	div.box-container{
+		margin: 85px 40px;
+	}
+
+}
